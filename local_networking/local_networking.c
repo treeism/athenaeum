@@ -9,11 +9,9 @@
 #define IP_4_CLASS_D (1 << 3)
 #define IP_4_CLASS_E (1 << 4)
 
-#ifdef _WIN32
 typedef uint8_t u_int8_t;
 typedef uint16_t u_int16_t;
 typedef uint32_t u_int32_t;
-#endif
 
 // Simple list implementation for demonstration
 typedef struct {
